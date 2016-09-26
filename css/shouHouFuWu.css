@@ -1,0 +1,25 @@
+@charset "utf-8";
+#ShouHouFuWu article h1 {
+  font-weight: 200;
+  font-size: 1.8rem;
+  padding: 1.5rem  0 1.9rem;
+}
+#ShouHouFuWu article div {
+  padding: 0 1.8rem;
+}
+#ShouHouFuWu article div h2 {
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+#ShouHouFuWu article div h3 {
+  font-size: 1.1rem;
+  padding: 1.2rem 0 0.9rem;
+}
+#ShouHouFuWu article div p {
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 20px;
+}
+#ShouHouFuWu article div .border_bottom {
+  padding-bottom: 3rem;
+}

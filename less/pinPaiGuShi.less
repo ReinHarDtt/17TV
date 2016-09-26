@@ -1,0 +1,61 @@
+@charset "utf-8";
+.run_list_h:after{
+    display: inline-block;
+    position: absolute;
+    content: " ";
+    border-left: 1px solid #979797 ;
+    height: 1.6rem;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+@runHeight:2.4rem;
+.Selected{
+    border-bottom: 2px solid #FF1C4D;
+    color: #FF1C4D;
+}
+#pinPaiGuShi{
+    .run_list{
+        overflow: hidden;
+        .run_list_h{
+            position: absolute;
+            z-index: 1;
+            height: @runHeight;
+            line-height: @runHeight;
+            text-align: center;
+            width: 16%;
+            padding-left: 2.3%;
+            background-color: #ffffff;
+        }
+        ul{
+            width: 100%;
+            height: @runHeight;
+            line-height: @runHeight;
+            margin-left: 17.2%;
+            overflow: hidden;
+            li{
+                float: left;
+                list-style: none;
+                font-weight: 200;
+                height: 100%;
+                margin: 0 0.93rem;
+            }
+        }
+    }
+    .photo_box{
+        overflow: hidden;
+        ul{  
+            text-align: center;
+            li{
+                display: none;
+                float: left;
+                    img{
+                        width: 100%; 
+                        border-bottom: 1px solid #ffffff;
+                    } 
+            }
+            li:nth-child(1){
+                  display: block;
+            }
+        }
+    }
+}
